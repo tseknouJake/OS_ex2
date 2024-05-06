@@ -1,7 +1,9 @@
+// Jake Lockitch, 807630
 /*
  * ex2.c
  *
  */
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
@@ -222,8 +224,6 @@ void parallel_checker(int num_of_processes, const char *filename)
 		// TODO - fork the children and call worker_checker.
 		// Possible implementation: Let worker_checker on which rows to perform work (from file).
 
-
-		
 		// fork the child
 		int pid = fork();
 
